@@ -1,4 +1,4 @@
 RaPiLite
 ========
 
-Raspberry Pi Monitor LIte
+Raspberry Pi Monitor LIte Version
