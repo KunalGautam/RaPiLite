@@ -36,7 +36,7 @@
               <span class="icon-bar"></span>
               <span class="icon-bar"></span>
             </button>
-            <a class="navbar-brand" href="index.php">RaPi Lite</a>
+            <a class="navbar-brand" href="index.php"><img src="favicon.png" height="30" style="margin-top: -15px;">RaPi Lite</a>
           </div>
           <div class="collapse navbar-collapse">
             <ul class="nav navbar-nav">
