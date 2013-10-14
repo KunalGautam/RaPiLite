@@ -1,8 +1,14 @@
 <?php
-$fp = fsockopen("www.google.com", 80, $errno, $errstr, 30);
-if (!$fp) {
-    echo "Disconnected";
-} else {
-    echo "Connected";
+function get_contents() {
+  file_get_contents("http://example.com");
+  return $http_response_header;
+}
+$k = get_contents();
+
+if ($k['0'] == "HTTP/1.0 200 OK"){
+	echo "connected";
+}
+else {
+	echo "Disconnected";
 }
 ?>
