@@ -40,13 +40,13 @@
           </div>
           <div class="collapse navbar-collapse">
             <ul class="nav navbar-nav">
-              <li class="active"><a href="index.php">Home</a></li>
+              <li "><a href="index.php">Home</a></li>
               <li><a href="https://github.com/KunalGautam/RaPiLite/issues">Help/Support</a></li>
-              <li class="dropdown">
+              <li class="dropdown active">
                 <a href="#" class="dropdown-toggle" data-toggle="dropdown">About<b class="caret"></b></a>
                 <ul class="dropdown-menu">
                 	<li><a href="doc.php">Documentation</a></li>
-                    <li><a href="update.php">Check Update</a></li>
+                    <li class="active"><a href="update.php">Check Update</a></li>
                  	<li><a href="version.php">Version</a></li>
                 </ul>
               </li>
@@ -58,7 +58,7 @@
       <!-- Begin page content -->
       <div class="container">
         <div class="page-header">
-          <h1>Status Report of <?php echo shell_exec('hostname'); ?></h1>
+          <h1>Status of Update</h1>
         </div>
        			Some Content
       </div>
