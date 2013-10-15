@@ -6,12 +6,13 @@ include 'header.php';
       <!-- Begin page content -->
       <div class="container">
         <div class="page-header">
-          <h1>Documentation for RaPi Lite</h1>
+          <h1>Changelog</h1>
         </div>
        			Some Content
       </div>
     </div>
 
-  <?php
+   
+<?php
 include 'footer.php';
 ?>
