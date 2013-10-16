@@ -77,8 +77,8 @@ include 'header.php';
           </tr>
 
 <tr>
-            <td>Hostname</td>
-            <td><?php include 'modules/hostname.php'; ?></td>
+            <td>Memory Status</td>
+            <td><?php include 'modules/memory.php'; ?></td>
 
           </tr>
 
