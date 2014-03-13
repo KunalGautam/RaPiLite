@@ -5,7 +5,7 @@ function get_contents() {
 }
 $k = get_contents();
 
-if ($k['0'] == "HTTP/1.0 200 OK"){
+if ($k['0'] == "HTTP/1.1 200 OK"){
 	echo "connected";
 }
 else {
